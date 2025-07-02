@@ -11,7 +11,7 @@ services:
     image: websocket-server:latest
     pull_policy: always
     ports:
-      - "9528:9528"
+      - "9527:9527"
     volumes:
       - ./server:/app
       - /app/node_modules
